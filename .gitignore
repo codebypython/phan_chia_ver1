@@ -1,0 +1,17 @@
+# Bỏ qua toàn bộ thư mục chứa thư viện (Thủ phạm gây tràn bộ nhớ AI)
+/lib/
+*.jar
+
+# Bỏ qua các file code Java đã được biên dịch (dự phòng)
+*.class
+/bin/
+/out/
+/target/
+
+# Bỏ qua các file cấu hình của IDE (nếu bạn dùng VS Code, IntelliJ...)
+.idea/
+.vscode/
+*.iml
+
+# Bỏ qua các file log hệ thống (nếu có)
+*.log
